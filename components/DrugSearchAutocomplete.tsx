@@ -79,13 +79,13 @@ const DrugSearchAutocomplete: React.FC = () => {
   return (
     <div>
       <Autosuggest
-        className="relative w-64 mx-auto bg-gray-400 p-2"
+        // className="relative w-64 mx-auto bg-gray-400 p-2"
         suggestions={suggestions.slice(0, 5)}
         onSuggestionsFetchRequested={onSuggestionsFetchRequested}
         onSuggestionsClearRequested={onSuggestionsClearRequested}
         onSuggestionSelected={onSuggestionSelected}
         getSuggestionValue={getSuggestionValue}
-        renderSuggestion={(suggestion: any, i: number) => (
+        renderSuggestion={(suggestion: any) => (
           <div
             className={`p-2 mt-2 cursor-pointer rounded-md bg-gray-100 
            hover:bg-blue-100
