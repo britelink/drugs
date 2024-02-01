@@ -6,12 +6,10 @@ const DashboardPage = () => {
   return (
     <div className="container mx-auto p-4">
       <header className="text-center">
-        <h1 className="text-4xl font-bold">
-          Discover the Comprehensive Drug Information You Need
-        </h1>
+        <h1 className="text-4xl font-bold">Africa's No. #1 Drug Information</h1>
         <p className="text-gray-600 mt-2">
-          Your trusted source for reliable drug data and research, aligned with
-          African standards, and ready to integrate into software.
+          Discover the comprehensive drug information you need for research,
+          education and software integration.
         </p>
         <Link
           href="britelink.io"
