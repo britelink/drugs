@@ -14,12 +14,12 @@ const DashboardPage = () => {
         <Link
           href="britelink.io"
           target="_blank"
-          className="flex  font-semibold"
+          className="flex text-center  font-semibold"
         >
-          <span>Brite</span> <span className="text-orange-600">Link.</span>
+          Powered by <span>Brite</span>{" "}
+          <span className="text-orange-600">Link.</span>
         </Link>
       </header>
-
       <main className="mt-8 text-center">
         <DrugSearchAutocomplete />
       </main>
