@@ -1,54 +1,51 @@
-# Build a Real-Time Drug Information Application with Next.js, React, Tailwind (2024)
+# Africa's Premier Drug Information Platform
 
-![Drug Information App](https://example.com/your-image-url.jpg)
+This repository is dedicated to an open-source project aiming to develop Africa's foremost drug information platform. Built using Next.js, React, and Tailwind CSS, this platform utilizes the BriteAPI to provide real-time access to comprehensive drug information. Our goal is to create a robust and user-friendly hub for drug-related data that adheres to African standards and surpasses global expectations.
 
-This repository is for a Real-Time Drug Information Application built with Next.js, React, and Tailwind CSS. It demonstrates how to create a modern web application for retrieving and displaying drug information in real-time using the BriteAPI.
-
-[VIDEO TUTORIAL](https://youtu.be/your-video-link)
-
-## Features:
+## Key Features:
 
 - 📚 Real-time drug information retrieval from BriteAPI
-- 🧬 Detailed drug data including trade name, generic name, and more
-- 📝 Search functionality to find specific drugs
-- 🌐 Next.js 14 framework
-- 💅 Tailwind CSS and ShadcnUI styling
-
-- 🛠️ User-friendly interface for drug information
-- ⭐️ Favorite drugs for quick access
+- 🧬 Detailed drug data, including trade name, generic name, and more
+- 📝 Powerful search functionality to find specific drugs
+- 🌐 Built with Next.js 14 framework
+- 💅 Stylishly designed using Tailwind CSS and ShadcnUI
 
 ## Prerequisites
 
 - Node.js version 14.x
 
-## Cloning the Repository
+## Getting Started
+
+### Cloning the Repository
+
+Clone this repository to your local machine:
 
 ```shell
 git clone https://github.com/britelink/drugSearch.git
 ```
 
-## Install Packages
+### Installing Packages
 
-Navigate to the project directory and install the required packages.
+Navigate to the project directory and install the required packages:
 
 ```shell
 cd your-repo-name
 npm install
 ```
 
-## Setup Environment Variables
+### Setting up Environment Variables
 
-Create a `.env` file in the project root and add the following environment variables:
+Create a `.env` file in the project root and add your environment variables:
 
 ```js
 BRITE_API_URL = your - briteapi - key;
 ```
 
-Replace `your-briteapi-key`, `your-briteapi-key`,
+Replace `your-briteapi-key` with your actual BriteAPI key.
 
-## Start the Application
+### Starting the Application
 
-Start the development server for the application.
+Launch the development server for the application:
 
 ```shell
 npm run dev
@@ -56,14 +53,20 @@ npm run dev
 
 Your drug information application will be accessible at `http://localhost:3000`.
 
-## Usage
+## How to Use
 
-- Use the search bar to enter the name of the drug you want to search for.
-- Click on a drug to view its details, including trade name, generic name, and other relevant information.
+- Use the search bar to find information on specific drugs.
+- Click on a drug to access detailed information, including trade name, generic name, and more.
 - Favorite drugs for quick access by clicking the star icon.
 
-- Enjoy a user-friendly interface with a modern design.
+## Join Us!
 
-## Conclusion
+We welcome collaborators, contributors, and enthusiasts to join us in our mission to create Africa's leading drug information platform. Let's work together to build a resource that sets the standard for drug-related information, adhering to African norms while meeting global expectations.
 
-This Drug Information Application demonstrates how to build a modern web application for accessing drug information in. It utilizes Next.js, React, and Tailwind CSS to provide a seamless user experience.
+## Contributing
+
+Please refer to our [Contribution Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
