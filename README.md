@@ -1,63 +1,70 @@
-# Build a Real-Time Miro Clone With Nextjs, React, Tailwind (2024)
+# Build a Real-Time Drug Information Application with Next.js, React, Tailwind (2024)
 
-![Copy of Copy of Copy of Copy of Fullstack Twitter Clone (11)](https://github.com/AntonioErdeljac/next14-miro-clone/assets/23248726/1f973316-0bf4-4fa0-b014-40bb9edc1942)
+![Drug Information App](https://example.com/your-image-url.jpg)
 
+This repository is for a Real-Time Drug Information Application built with Next.js, React, and Tailwind CSS. It demonstrates how to create a modern web application for retrieving and displaying drug information in real-time using the BriteAPI.
 
-This is a repository for a Build a Real-Time Miro Clone With Nextjs, React, Tailwind (2024) youtube video.
+[VIDEO TUTORIAL](https://youtu.be/your-video-link)
 
-[VIDEO TUTORIAL](https://youtu.be/ADJKbuayubE)
+## Features:
 
-Features:
-
-- 🛠️ Whiteboard from scratch
-- 🧰 Toolbar with Text, Shapes, Sticky Notes & Pencil
-- 🪄 Layering functionality
-- 🎨 Coloring system
-- ↩️ Undo & Redo functionality
-- ⌨️ Keyboard shortcuts
-- 🤝 Real-time collaboration 
-- 💾 Real-time database 
-- 🔐 Auth, organisations and invites 
-- ⭐️ Favoriting functionality
+- 📚 Real-time drug information retrieval from BriteAPI
+- 🧬 Detailed drug data including trade name, generic name, and more
+- 📝 Search functionality to find specific drugs
 - 🌐 Next.js 14 framework
-- 💅 TailwindCSS & ShadcnUI styling
+- 💅 Tailwind CSS and ShadcnUI styling
+- 🔒 Authentication system for secure access
+- 🛠️ User-friendly interface for drug information
+- ⭐️ Favorite drugs for quick access
+- 🚀 Real-time collaboration and updates
 
-### Prerequisites
+## Prerequisites
 
-**Node version 14.x**
+- Node.js version 14.x
 
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/next14-miro-clone.git
-```
-
-### Install packages
+## Cloning the Repository
 
 ```shell
-npm i
+git clone https://github.com/your-username/your-repo-name.git
 ```
 
-### Setup .env file
+## Install Packages
 
+Navigate to the project directory and install the required packages.
+
+```shell
+cd your-repo-name
+npm install
+```
+
+## Setup Environment Variables
+
+Create a `.env` file in the project root and add the following environment variables:
 
 ```js
-CONVEX_DEPLOYMENT=
-NEXT_PUBLIC_CONVEX_URL=
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-LIVEBLOCKS_SECRET_KEY=
+BRITEAPI_URL = your - briteapi - key;
 ```
 
-### Setup Convex
+Replace `your-briteapi-key`, `your-briteapi-key`,
 
-```shell
-npx convex dev
+## Start the Application
 
-```
-
-### Start the app
+Start the development server for the application.
 
 ```shell
 npm run dev
 ```
+
+Your drug information application will be accessible at `http://localhost:3000`.
+
+## Usage
+
+- Use the search bar to enter the name of the drug you want to search for.
+- Click on a drug to view its details, including trade name, generic name, and other relevant information.
+- Favorite drugs for quick access by clicking the star icon.
+- Collaborate in real-time with other users to access and update drug information.
+- Enjoy a user-friendly interface with a modern design.
+
+## Conclusion
+
+This Real-Time Drug Information Application demonstrates how to build a modern web application for accessing and collaborating on drug information in real-time. It utilizes Next.js, React, and Tailwind CSS to provide a seamless user experience.
