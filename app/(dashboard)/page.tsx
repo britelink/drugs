@@ -15,7 +15,7 @@ const DashboardPage = () => {
         </p>
         <div className="flex justify-center ">
           <Link
-            href="britelink.io"
+            href="https://www.britelink.io"
             target="_blank"
             className="font-semibold text-sm"
           >
