@@ -3,7 +3,7 @@ import { Drugs } from "@/typing";
 import Link from "next/link";
 import React from "react";
 
-const Drugs = ({ drugs }: Drugs) => {
+const DrugList = ({ drugs }: Drugs) => {
   return (
     <div>
       <h2 className="text-3xl font-semibold mb-4 text-center">
@@ -27,4 +27,4 @@ const Drugs = ({ drugs }: Drugs) => {
   );
 };
 
-export default Drugs;
+export default DrugList;

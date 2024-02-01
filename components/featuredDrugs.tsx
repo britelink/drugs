@@ -1,8 +1,9 @@
 "use client";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import Drugs from "./drugs";
+
 import { Drug } from "@/typing";
+import DrugList from "./drugs";
 
 const FeaturedDrugs = () => {
   const apiKey = "secret_699038a1-a1de-4f70-8e63-308f2c8caf48";
@@ -34,7 +35,7 @@ const FeaturedDrugs = () => {
     fetchData();
   }, []); // Empty dependency array means this effect runs once when the component mounts
 
-  return <Drugs drugs={drugs} />;
+  return <DrugList drugs={drugs} />;
 };
 
 export default FeaturedDrugs;
