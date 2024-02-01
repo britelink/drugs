@@ -19,7 +19,7 @@ const DashboardPage = () => {
             target="_blank"
             className="font-semibold text-sm"
           >
-            Powered by <span>Brite</span>{" "}
+            Powered by <span>Brite</span>
             <span className="text-orange-600">Link.</span>
           </Link>
         </div>
