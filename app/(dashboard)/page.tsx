@@ -13,14 +13,16 @@ const DashboardPage = () => {
           Discover the comprehensive drug information you need for research,
           education and software integration.
         </p>
-        <Link
-          href="britelink.io"
-          target="_blank"
-          className="flex text-center  font-semibold"
-        >
-          Powered by <span>Brite</span>{" "}
-          <span className="text-orange-600">Link.</span>
-        </Link>
+        <div className="flex justify-center ">
+          <Link
+            href="britelink.io"
+            target="_blank"
+            className="font-semibold text-sm"
+          >
+            Powered by <span>Brite</span>{" "}
+            <span className="text-orange-600">Link.</span>
+          </Link>
+        </div>
       </header>
       <main className="mt-8 text-center">
         <DrugSearchAutocomplete />
