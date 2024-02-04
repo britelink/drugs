@@ -21,7 +21,7 @@ This repository is dedicated to an open-source project aiming to develop Africa'
 Clone this repository to your local machine:
 
 ```shell
-git clone https://github.com/britelink/drugSearch.git
+git clone https://github.com/britelink/drugs.git
 ```
 
 ### Installing Packages
